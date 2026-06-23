@@ -1,5 +1,5 @@
 {
-  "name": "@repo/ui",
+  "name": "@digiform/ui",
   "version": "0.0.0",
   "private": true,
   "exports": {
@@ -7,7 +7,6 @@
   },
   "scripts": {
     "lint": "eslint . --max-warnings 0",
-    "generate:component": "turbo gen react-component",
     "check-types": "tsc --noEmit"
   },
   "devDependencies": {
@@ -21,6 +20,8 @@
   },
   "dependencies": {
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^3.3.0"
   }
 }

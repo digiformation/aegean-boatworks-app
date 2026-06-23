@@ -1,0 +1,6 @@
+{
+  "buildCommand": "pnpm turbo run build --filter=@digiform/boatyard",
+  "outputDirectory": "apps/boatyard/.next",
+  "installCommand": "pnpm install",
+  "framework": "nextjs"
+}
