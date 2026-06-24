@@ -1,5 +1,5 @@
 import { createClient } from "@supabase/supabase-js";
-import type { Database } from "@digiform/db";
+import type { Database } from "./database.types";
 
 // Server-only: uses the service role key, bypasses RLS.
 // Never import this in client components.

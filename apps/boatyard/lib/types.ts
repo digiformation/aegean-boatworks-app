@@ -1,4 +1,4 @@
-import type { Database } from "@digiform/db";
+import type { Database } from "./database.types";
 
 type JobRow = Database["public"]["Tables"]["jobs"]["Row"];
 type BoatRow = Database["public"]["Tables"]["boats"]["Row"];
